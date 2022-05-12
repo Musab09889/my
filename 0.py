@@ -1,15 +1,6 @@
-import os, platform
+import os, sys, time
+from time import sleep
 try:
-    import requests
-except:
-    os.system('pip install requests')
-os.system('git pull')
-import requests
-os.system('git pull')
-bit = platform.architecture()[0]
-if bit == '64bit':
-    from crack9 import __xXx____
-    __xXx____()
-elif bit == '32bit':
-    from crack9 import __xXx____
-    __xXx____()
+    __import__('duck.cpython-310.so').__niki__()
+except Exception as e:
+    exit(str(e))
